@@ -33,3 +33,6 @@ For each normal images, we apply Stable Diffusion for defect inpainting respecti
 ## Download
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/1bcfn1jAIjkahJPWe2d_9upK0n5nBkO_q/view?usp=sharing" target="_blank">synthetic_tidy_v2</a>. For the convenience, <a href="https://drive.google.com/file/d/1t83KOk67e2Fz2HdtQgF7NtMQQTWBKRei/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD datset.
 
+## NTHU CVLAB
+For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/).
+
