@@ -45,5 +45,5 @@ We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patch
 For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/), or contact `lesthan41@gapp.nthu.edu.tw`, `ss111062646@gapp.nthu.edu.tw`.
 
 ## License
-
+TBD
 
