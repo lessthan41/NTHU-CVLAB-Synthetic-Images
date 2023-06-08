@@ -1,4 +1,4 @@
-# NTHU CVLAB - Synthetic Image Dataset
+# NTHU CVLAB - Synthetic Image Dataset for Anomaly Detection and Segmentation
 
 ```clike=
   synthetic_tidy_v2
