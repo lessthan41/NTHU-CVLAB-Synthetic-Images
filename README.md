@@ -36,7 +36,7 @@ For downloading our synthetic dataset, please visit <a href="https://drive.googl
 ## Experiment
 We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patchcore-inspection) (CVPR, 2022), [SimpleNet](https://github.com/DonaldRR/SimpleNet) (CVPR, 2023). The performance is record as follow. 
 
-|  |Image AUC |Pixel AUC|
+|  |Image AUC (%) |Pixel AUC (%)|
 |-----|-----|--------|
 |Patchcore | 57.2 |   87.5    |
 |SimpleNet  |69.1    |   65.3  |
