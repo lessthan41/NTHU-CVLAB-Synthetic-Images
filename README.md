@@ -1,6 +1,6 @@
 # NTHU CVLAB - Synthetic Images
 
-```
+```clike=
   synthetic_tidy_v2
   ├─ 0
   │  ├─ img_url.json
