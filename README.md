@@ -1,6 +1,4 @@
 # Synthetic Image Dataset for Anomaly Detection and Segmentation
-CHENG-YU HO: `lesthan41@gapp.nthu.edu.tw`
-YU-HSUAN HSIEH: `ss111062646@gapp.nthu.edu.tw`
 ```clike=
   synthetic_tidy_v2
   ├─ 0
@@ -45,6 +43,9 @@ We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patch
 
 ## NTHU CVLAB
 For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/).
+<br>
+CHENG-YU HO: `lesthan41@gapp.nthu.edu.tw` <br>
+YU-HSUAN HSIEH: `ss111062646@gapp.nthu.edu.tw`
 
 ## License
 TBD
