@@ -34,13 +34,16 @@ For each normal images, we apply Stable Diffusion for defect inpainting respecti
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/1bcfn1jAIjkahJPWe2d_9upK0n5nBkO_q/view?usp=sharing" target="_blank">synthetic_tidy_v2</a>. For the convenience, <a href="https://drive.google.com/file/d/1t83KOk67e2Fz2HdtQgF7NtMQQTWBKRei/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD dataset.
 
 ## Experiment
-We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patchcore-inspection) (CVPR, 2022), [SimpleNet](https://github.com/DonaldRR/SimpleNet) (CVPR, 2023). The performance is record as follow. 
+We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patchcore-inspection) (CVPR, 2022), [SimpleNet](https://github.com/DonaldRR/SimpleNet) (CVPR, 2023). The performance is record as follow.
 
-| Method |Image AUC (%) |Pixel AUC (%)|
+| Method | Mean Image AUC (%) | Mean Pixel AUC (%)|
 |-----|-----|--------|
 |Patchcore | 57.2 |   87.5    |
 |SimpleNet  |69.1    |   65.3  |
 
 ## NTHU CVLAB
-For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/).
+For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/), or contact `lesthan41@gapp.nthu.edu.tw`, `ss111062646@gapp.nthu.edu.tw`.
+
+## License
+
 
