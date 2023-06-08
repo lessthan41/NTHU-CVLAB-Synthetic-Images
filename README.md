@@ -42,7 +42,7 @@ We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patch
 |SimpleNet  |69.1    |   65.3  |
 
 ## NTHU CVLAB
-For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/), or contact CHENG-YU HO (`lesthan41@gapp.nthu.edu.tw`), YU-SHUAN HSIEH (`ss111062646@gapp.nthu.edu.tw`).
+For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/), or contact CHENG-YU HO: `lesthan41@gapp.nthu.edu.tw`, YU-HSUAN HSIEH: `ss111062646@gapp.nthu.edu.tw`.
 
 ## License
 TBD
