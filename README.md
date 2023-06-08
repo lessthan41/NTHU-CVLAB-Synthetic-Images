@@ -1,4 +1,4 @@
-# NTHU CVLAB - Synthetic Images
+# NTHU CVLAB - Synthetic Image Dataset
 
 ```clike=
   synthetic_tidy_v2
