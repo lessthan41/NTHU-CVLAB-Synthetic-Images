@@ -1,4 +1,4 @@
-# Synthetic Image Dataset for Anomaly Detection and Segmentation
+# Synthetic Anomalies for Industrial Inspection
 ```clike=
   synthetic_tidy_v2
   ├─ 0
