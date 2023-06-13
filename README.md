@@ -1,4 +1,4 @@
-# Synthetic Anomalies for Industrial Inspection (SAII)
+# Diffusion-based Synthetic Anomalies for Industrial Inspection (DSAII)
 ```clike=
   synthetic_tidy_v2
   ├─ 0
