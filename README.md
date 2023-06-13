@@ -1,4 +1,4 @@
-# Synthetic Anomalies for Industrial Inspection
+# Synthetic Anomalies for Industrial Inspection (SAII)
 ```clike=
   synthetic_tidy_v2
   ├─ 0
