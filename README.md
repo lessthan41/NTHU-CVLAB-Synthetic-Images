@@ -52,5 +52,4 @@ CHENG-YU HO: `lesthan41@gapp.nthu.edu.tw` <br>
 YU-HSUAN HSIEH: `ss111062646@gapp.nthu.edu.tw`
 
 ## License
-TBD
-
+MIT Licence
