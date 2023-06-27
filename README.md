@@ -37,6 +37,7 @@ For each normal images, we apply Stable Diffusion for defect inpainting respecti
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/148yCBS_6I7WqSMbgY4LTKq97Nb5NTS2L/view?usp=sharing" target="_blank">synthetic_tidy_v2</a>. For the convenience, <a href="https://drive.google.com/file/d/1j4iDajm9rt1Pj0Numpn0-4tT6rnyM7EL/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD dataset. -->
 
 ## Instructions
+### Phase 1: Crawler
 * Step 1: Prepare representative images for each class you want to create.    
 For crawling bunches of similar images, first prepare one image for each class, for example:
 ```clike=
@@ -62,7 +63,9 @@ After executing `crawler_picture.py`, you will get output directory, for example
   │  ├─ 000.png
   ...
 ```
-* Step 5: Follow <a href="https://github.com/facebookresearch/segment-anything" target="_blank">Segment Anything</a> to acquiring object mask, for furthur generating ground-truth mask.
+
+### Phase 2: Ground Truth Mask Generation
+* Step 1: Follow <a href="https://github.com/facebookresearch/segment-anything" target="_blank">Segment Anything</a> to acquiring object mask, for furthur generating ground-truth mask.
 The output mask candidates should looks like:
 ```clike=
   /object/mask/candidates/
@@ -84,12 +87,19 @@ The output mask candidates should looks like:
   │  ├─ 0.png
   ...
 ```
-* Step 6: Edit `SRC`, `DST` path to directory in `mask_extractor.py` then execute `python mask_extractor.py`. It will output the final object mask.
-* Step 7: Prepare a bunch of mask you want to use, in this case we use [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) testing set mask.
-* Step 8: Update `SKIP` list in `gen_mask.py` for skipping object mask when augmenting ground truth mask. `SRC`, `MASK`, `DST` for input/mask/output directories.
-* Step 9: Run `python gen_mask.py`
-* Step 10:
+* Step 2: Edit `SRC`, `DST` path to directory in `mask_extractor.py` then execute `python mask_extractor.py`. It will output the final object mask.
+* Step 3: Prepare a bunch of mask you want to use, in this case we use [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) testing set mask.
+* Step 4: Update `SKIP` list in `gen_mask.py` for skipping object mask when augmenting ground truth mask. `SRC`, `MASK`, `DST` for input/mask/output directories.
+* Step 5: Run `python gen_mask.py`
 
+### Phase 3: Diffusion Inpainting
+* Step 1: Generate masks of anomaly region from exist masks or prepare your own masks
+* Step 2: Download and install stable diffusion web-ui follow the instructions in [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+* Step 3: Apply inpaint function to the image with corresponding mask given the prompt (in “img2img” block and choose the “batch” section).
+```
+  prompt for objects: broken, cracked, severely shattered
+  prompt for textures: broken, cracked, severely shattered(“stains, holes” are applied on classes that don’t go well with default prompts)
+```
 
 ## Experiment
 We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patchcore-inspection) (CVPR, 2022), [SimpleNet](https://github.com/DonaldRR/SimpleNet) (CVPR, 2023). The performance is record as follow.
