@@ -84,8 +84,11 @@ The output mask candidates should looks like:
   │  ├─ 0.png
   ...
 ```
-* Step 6: Edit `SRC`, `DST` path to directory in `mask_extractor.py` then execute `python mask_extractor.py`.
-* 
+* Step 6: Edit `SRC`, `DST` path to directory in `mask_extractor.py` then execute `python mask_extractor.py`. It will output the final object mask.
+* Step 7: Prepare a bunch of mask you want to use, in this case we use [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) testing set mask.
+* Step 8: Update `SKIP` list in `gen_mask.py` for skipping object mask when augmenting ground truth mask. `SRC`, `MASK`, `DST` for input/mask/output directories.
+* Step 9: Run `python gen_mask.py`
+* Step 10:
 
 
 ## Experiment
