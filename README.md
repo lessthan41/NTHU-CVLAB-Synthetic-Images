@@ -38,7 +38,7 @@ For downloading our synthetic dataset, please visit <a href="https://drive.googl
 
 ## Instructions
 * Step 1: Prepare representative images for each class you want to create.    
-For crawling bunches of similar images, first prepare one image for each class. For example:
+For crawling bunches of similar images, first prepare one image for each class, for example:
 ```clike=
   /path/to/dir
   ├─ audiopipe
@@ -49,7 +49,20 @@ For crawling bunches of similar images, first prepare one image for each class. 
 ```
 * Step 2: Prepare a Google Chrome browser.    
 * Step 3: Download `chromedriver.exe` from <a href="https://chromedriver.chromium.org/downloads" target="_blank">official website</a>.
-* Step 4: Edit path to directory in `crawler_picture.py` and execute `python crawler_picture.py`.
+* Step 4: Edit `SRC`, `DST` path to directory in `crawler_picture.py` then execute `python crawler_picture.py`.
+After executing `crawler_picture.py`, you will get output directory, for example:
+```clike=
+  /path/to/dir
+  ├─ audiopipe
+  │  ├─ 000.png
+  │  ├─ 001.png
+  │  │    ...
+  │  └─ 019.png
+  ├─ bucket
+  │  ├─ 000.png
+  ...
+```
+* 
 
 
 ## Experiment
