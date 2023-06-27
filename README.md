@@ -38,7 +38,19 @@ For downloading our synthetic dataset, please visit <a href="https://drive.googl
 
 ## Instructions
 * Step 1: Prepare representative images for each class you want to create.    
-* Step 2: 
+For crawling bunches of similar images, first prepare one image for each class. For example:
+```clike=
+  /path/to/dir
+  ├─ audiopipe
+  │  └─ 000.png
+  ├─ bucket
+  │  └─ 000.png
+  ...
+```
+* Step 2: Prepare a Google Chrome browser.    
+* Step 3: Download `chromedriver.exe` from <a href="https://chromedriver.chromium.org/downloads" target="_blank">official website</a>.
+* Step 4: Edit path to directory in `crawler_picture.py` and execute `python crawler_picture.py`.
+
 
 ## Experiment
 We test synthetic dataset on [Patchcore](https://github.com/amazon-science/patchcore-inspection) (CVPR, 2022), [SimpleNet](https://github.com/DonaldRR/SimpleNet) (CVPR, 2023). The performance is record as follow.
