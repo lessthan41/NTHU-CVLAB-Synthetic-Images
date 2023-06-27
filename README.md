@@ -62,6 +62,29 @@ After executing `crawler_picture.py`, you will get output directory, for example
   │  ├─ 000.png
   ...
 ```
+* Step 5: Follow <a href="https://github.com/facebookresearch/segment-anything" target="_blank">Segment Anything</a> to acquiring object mask, for furthur generating ground-truth mask.
+The output mask candidates should looks like:
+```clike=
+  /object/mask/candidates/
+  ├─ audiopipe
+  │  ├─ 000
+  │  │  ├─ 0.png
+  │  │  ├─ 1.png
+  │  │    ...
+  │  │  └─ 16.png
+  │  ├─ 001
+  │  │  ├─ 0.png
+  │  │    ...
+  │  │  └─ 8.png
+  │  │    ...
+  │  └─ 019
+  │     ├─ 0.png
+  │      ...
+  ├─ bucket
+  │  ├─ 0.png
+  ...
+```
+* Step 6: Edit `SRC`, `DST` path to directory in `mask_extractor.py` then execute `python mask_extractor.py`.
 * 
 
 
