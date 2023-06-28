@@ -41,6 +41,9 @@ For each normal images, we apply Stable Diffusion for defect inpainting respecti
 <!--- ## Dataset Download
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/148yCBS_6I7WqSMbgY4LTKq97Nb5NTS2L/view?usp=sharing" target="_blank">synthetic_tidy_v2</a>. For the convenience, <a href="https://drive.google.com/file/d/1j4iDajm9rt1Pj0Numpn0-4tT6rnyM7EL/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD dataset. -->
 
+## Before Started
+Due to Copyright Law, we should be careful when crawling images from the internet. Please make sure the images are available for free or contact author for further authorization.
+
 ## Instructions
 ### Phase 1: Crawler
 * Step 1: Prepare representative images for each class you want to create.    
