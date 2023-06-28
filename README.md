@@ -33,10 +33,10 @@ DSAII dataset are obtained by crawling and arranging similar images from the web
 
 For each normal images, we apply Stable Diffusion for defect inpainting respectively. The inpainting mask is acquired by random sampling ground_truth mask from [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset, then applying augmentations as our input inpainting masks. The inpainting masks are saved under path `synthetic_tidy_v2/{CLASS}/mask`. The output defect images are saved under path `synthetic_tidy_v2/{CLASS}/defect`. The failure cases are eliminated.
 
-<img width="235" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/48597e8b-fe07-4720-a45c-ccff99aa9bf8">
-<img width="235" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/99a33ceb-1748-4fdc-81b4-25f6680da5d4">
-<img width="235" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/331be0d8-d524-4f26-949a-9343549a8208">
-<img width="235" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/d246d891-03bc-4cba-9a52-3a6de6d33034">
+<img width="230" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/48597e8b-fe07-4720-a45c-ccff99aa9bf8">
+<img width="230" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/99a33ceb-1748-4fdc-81b4-25f6680da5d4">
+<img width="230" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/331be0d8-d524-4f26-949a-9343549a8208">
+<img width="230" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/d246d891-03bc-4cba-9a52-3a6de6d33034">
 
 <!--- ## Dataset Download
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/148yCBS_6I7WqSMbgY4LTKq97Nb5NTS2L/view?usp=sharing" target="_blank">synthetic_tidy_v2</a>. For the convenience, <a href="https://drive.google.com/file/d/1j4iDajm9rt1Pj0Numpn0-4tT6rnyM7EL/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD dataset. -->
