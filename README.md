@@ -33,7 +33,7 @@ DSAII dataset are obtained by crawling and arranging similar images from the web
 
 For each normal images, we apply Stable Diffusion for defect inpainting respectively. The inpainting mask is acquired by random sampling ground_truth mask from [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset, then applying augmentations as our input inpainting masks. The inpainting masks are saved under path `synthetic_tidy_v2/{CLASS}/mask`. The output defect images are saved under path `synthetic_tidy_v2/{CLASS}/defect`. The failure cases are eliminated.
 
-<img width="921" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/2f58dd38-e821-46ec-9324-4bf6ceab5d87">
+<img width="921" alt="image" style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/2f58dd38-e821-46ec-9324-4bf6ceab5d87">
 
 <!--- ## Dataset Download
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/148yCBS_6I7WqSMbgY4LTKq97Nb5NTS2L/view?usp=sharing" target="_blank">synthetic_tidy_v2</a>. For the convenience, <a href="https://drive.google.com/file/d/1j4iDajm9rt1Pj0Numpn0-4tT6rnyM7EL/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD dataset. -->
