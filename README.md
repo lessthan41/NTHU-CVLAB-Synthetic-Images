@@ -1,6 +1,4 @@
 # Diffusion-based Synthetic Anomalies for Industrial Inspection (DSAII)
-
-## Dataset Structure
 DSAII dataset are obtained by crawling and arranging similar images from the web. Each class (0\~77) contains 10\~20 images without defect, which is saved under path `synthetic_output/{CLASS}/normal`. The image reference link is listed in `img_url.json`. The whole dataset contains 2906 images (including normal and defect images).
 
 For each normal images, we apply Stable Diffusion for defect inpainting respectively. The inpainting mask is acquired by random sampling ground_truth mask from [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset, then applying augmentations as our input inpainting masks. The inpainting masks are saved under path `synthetic_output/{CLASS}/mask`. The output defect images are saved under path `synthetic_output/{CLASS}/defect`. The failure cases are eliminated.
