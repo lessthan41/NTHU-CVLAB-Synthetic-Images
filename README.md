@@ -26,9 +26,11 @@
 ```
 
 ## Dataset Structure
-DSAII is dataset for industrial anomaly detection and segmentation task. These images are obtained by crawling and arranging similar images from the web. Each class (0\~77) contains 10\~20 images without defect, which is saved under path `synthetic_output/{CLASS}/normal`. The image reference link is listed in `img_url.json`. The whole dataset contains 2906 images (including normal and defect images).
+DSAII dataset serves as a performance evaluation dataset for industrial anomaly detection and segmentation task. These images are obtained by crawling and arranging similar images from the web. Each class (0\~77) contains 10\~20 images without defect, which is saved under path `synthetic_output/{CLASS}/normal`. The image reference link is listed in `img_url.json`. The whole dataset contains 2906 images (including normal and defect images).
 
-For each normal images, we apply Stable Diffusion for defect inpainting respectively. The inpainting mask is acquired by random sampling ground_truth mask from [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset, then applying augmentations as our input inpainting masks. The inpainting masks are saved under path `synthetic_output/{CLASS}/mask`. The output defect images are saved under path `synthetic_output/{CLASS}/defect`. The failure cases are eliminated.
+For each normal images, we apply Stable Diffusion for defect inpainting respectively. The inpainting mask is acquired by random sampling ground_truth mask from [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset, then applying augmentations as our input inpainting masks. The inpainting masks are saved under path `synthetic_output/{CLASS}/mask`. The output defect images are saved under path `synthetic_output/{CLASS}/defect`. The failure cases are eliminated.    
+
+By Following our instructions, you can customize your own image anomaly detection dataset.
 
 <p align="center">
   <img width="921" alt="image" src="https://github.com/lessthan41/NTHU-CVLAB-Synthetic-Images/assets/43234148/2f58dd38-e821-46ec-9324-4bf6ceab5d87">
