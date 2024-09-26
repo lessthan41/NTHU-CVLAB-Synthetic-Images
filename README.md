@@ -41,7 +41,7 @@ DSAII dataset contains normal images with **large intra-class variation**, while
 For downloading our synthetic dataset, please visit <a href="https://drive.google.com/file/d/148yCBS_6I7WqSMbgY4LTKq97Nb5NTS2L/view?usp=sharing" target="_blank">synthetic_output</a>. For the convenience, <a href="https://drive.google.com/file/d/1j4iDajm9rt1Pj0Numpn0-4tT6rnyM7EL/view?usp=sharing" target="_blank">synthetic_mvtec_like</a> is also provided with same structure as MVTecAD dataset. -->
 
 ## Limitation
-Due to Copyright Law, we should be careful when crawling images from the internet. Please make sure the images are available for free or contact author for further authorization.
+Due to Copyright issue, we should be careful when crawling images from the internet. Please make sure the images are available for free or contact author for further authorization.
 
 ## Instructions
 ### Phase 1: Crawler
